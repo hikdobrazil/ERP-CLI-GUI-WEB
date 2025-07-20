@@ -1,10 +1,13 @@
-name: Deploy to GitHub Pages
+name: Deploy Web Version to GitHub Pages
 
 on:
   push:
     branches: [ main ]
+    paths: [ 'web/**' ]
   pull_request:
     branches: [ main ]
+    paths: [ 'web/**' ]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -20,6 +23,7 @@ jobs:
     - name: Copy web files to root
       run: |
         cp -r web/* .
+        ls -la
         
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3

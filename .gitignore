@@ -33,6 +33,7 @@ Thumbs.db
 
 # Database
 *.db-journal
+*.db
 
 # Logs
 *.log
@@ -48,3 +49,10 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ERP System specific
+cli/erp_database.db
+shared/users_data_backup.json
+
+# GitHub Pages build artifacts
+_site/

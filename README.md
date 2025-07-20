@@ -1,6 +1,46 @@
-# 🌐 Sistema ERP - Web Edition
+# � Sistema ERP - Evolução Completa
 
-Versão web moderna e responsiva do Sistema ERP, desenvolvida para ser hospedada no **GitHub Pages**.
+Um **Sistema ERP** profissional desenvolvido em **3 versões progressivas**: CLI, GUI e Web. Este repositório demonstra a evolução de software desde terminal até uma moderna aplicação web.
+
+## 🌐 **[🔗 Demonstração Online](https://hikdobrazil.github.io/ERP-CLI-GUI-WEB/)**
+
+**Credenciais de Acesso:**
+- **Usuário**: admin  
+- **Senha**: mudar@123
+
+---
+
+## 📁 **Estrutura Profissional**
+
+```
+ERP-CLI-GUI-WEB/
+├── 📱 cli/              # Versão Terminal (Python CLI)
+├── 🖥️  gui/              # Versão Desktop (Python + tkinter)
+├── 🌐 web/              # Versão Web (HTML5 + CSS3 + JS)
+├── 📊 shared/           # Dados e configurações compartilhadas
+├── 📚 docs/             # Documentação completa
+└── 🚀 .github/          # CI/CD e automação
+```
+
+## 🎯 **Versões Disponíveis**
+
+### 1. 📱 **[Versão CLI](./cli/)** (Terminal)
+- **Tecnologia**: Python puro
+- **Interface**: Terminal com navegação por setas
+- **Dados**: JSON local
+- **Recursos**: ANSI colors, autenticação, CRUD completo
+
+### 2. 🖥️ **[Versão GUI](./gui/)** (Desktop)  
+- **Tecnologia**: Python + tkinter
+- **Interface**: Janelas nativas do sistema
+- **Dados**: SQLite database
+- **Recursos**: Formulários, tabelas, dialogs
+
+### 3. 🌐 **[Versão Web](./web/)** (Online) ⭐
+- **Tecnologia**: HTML5 + CSS3 + JavaScript
+- **Interface**: Responsiva e moderna
+- **Dados**: LocalStorage
+- **Recursos**: PWA-ready, mobile-first, GitHub Pages
 
 ## 🎯 **Características**
 
