@@ -62,11 +62,11 @@
     </div>
     
     <!-- Aplicação Principal -->
-    <div id="appContainer" class="app-container" style="display: none;">
+    <div id="appContainer" class="app-container">
         <!-- Header -->
         <header class="app-header">
             <div class="header-left">
-                <button class="menu-toggle" onclick="toggleSidebar()">
+                <buttonbutton class="menu-toggle" onclick="toggleSidebar()" aria-label="Abrir ou fechar menu lateral">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="logo-small">
@@ -251,6 +251,7 @@
                 
                 <div class="filters">
                     <input type="text" id="employeeSearch" placeholder="Buscar funcionário..." onkeyup="filterEmployees()">
+                    <label for="departmentFilter" class="visually-hidden">Filtrar por departamento</label>
                     <select id="departmentFilter" onchange="filterEmployees()">
                         <option value="">Todos os departamentos</option>
                         <option value="TI">TI</option>
