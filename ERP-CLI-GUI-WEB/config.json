@@ -1,0 +1,21 @@
+{
+  "system_config": {
+    "name": "Sistema ERP Empresarial",
+    "version": "1.1a",
+    "author": "CLI ERP Developer",
+    "language": "pt-BR"
+  },
+  "display_config": {
+    "screen_width": 80,
+    "use_colors": true,
+    "auto_save": true,
+    "arrow_navigation": true,
+    "mouse_simulation": true,
+    "highlight_color": "cyan"
+  },
+  "default_data": {
+    "pending_orders": 6,
+    "open_orders": 4,
+    "approved_budgets": 1
+  }
+}

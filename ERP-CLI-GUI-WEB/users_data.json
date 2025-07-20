@@ -1,0 +1,9 @@
+{
+  "admin": {
+    "password": "mudar@123",
+    "role": "Administrador",
+    "created_date": "2025-07-20",
+    "last_login": "2025-07-20 17:23:02",
+    "active": true
+  }
+}
